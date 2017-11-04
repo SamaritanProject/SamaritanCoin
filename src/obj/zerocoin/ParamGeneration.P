@@ -1,0 +1,28 @@
+obj/zerocoin/ParamGeneration.o: zerocoin/ParamGeneration.cpp \
+  zerocoin/Zerocoin.h zerocoin/../serialize.h \
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/allocators.h \
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/version.h \
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/clientversion.h \
+  zerocoin/../bignum.h \
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/uint256.h \
+  zerocoin/../util.h \
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/netbase.h \
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/compat.h \
+  zerocoin/Params.h zerocoin/Coin.h zerocoin/Commitment.h \
+  zerocoin/Accumulator.h zerocoin/AccumulatorProofOfKnowledge.h \
+  zerocoin/CoinSpend.h zerocoin/SerialNumberSignatureOfKnowledge.h \
+  zerocoin/SpendMetaData.h zerocoin/ParamGeneration.h
+zerocoin/ParamGeneration.cpp :
+  zerocoin/Zerocoin.h zerocoin/../serialize.h :
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/allocators.h :
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/version.h :
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/clientversion.h :
+  zerocoin/../bignum.h :
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/uint256.h :
+  zerocoin/../util.h :
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/netbase.h :
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/compat.h :
+  zerocoin/Params.h zerocoin/Coin.h zerocoin/Commitment.h :
+  zerocoin/Accumulator.h zerocoin/AccumulatorProofOfKnowledge.h :
+  zerocoin/CoinSpend.h zerocoin/SerialNumberSignatureOfKnowledge.h :
+  zerocoin/SpendMetaData.h zerocoin/ParamGeneration.h :

@@ -1,0 +1,8 @@
+obj/version.o: version.cpp \
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/version.h \
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/clientversion.h \
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/obj/build.h
+version.cpp :
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/version.h :
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/clientversion.h :
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/obj/build.h :

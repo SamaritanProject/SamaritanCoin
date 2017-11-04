@@ -1,0 +1,36 @@
+obj/crypter.o: crypter.cpp \
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/crypter.h \
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/allocators.h \
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/key.h \
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/serialize.h \
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/version.h \
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/clientversion.h \
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/uint256.h \
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/util.h \
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/netbase.h \
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/compat.h \
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/scrypt.h \
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/net.h \
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/mruset.h \
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/protocol.h \
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/addrman.h \
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/sync.h \
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/threadsafety.h
+crypter.cpp :
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/crypter.h :
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/allocators.h :
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/key.h :
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/serialize.h :
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/version.h :
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/clientversion.h :
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/uint256.h :
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/util.h :
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/netbase.h :
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/compat.h :
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/scrypt.h :
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/net.h :
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/mruset.h :
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/protocol.h :
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/addrman.h :
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/sync.h :
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/threadsafety.h :

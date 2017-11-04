@@ -1,0 +1,4 @@
+obj/pbkdf2.o: pbkdf2.cpp \
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/pbkdf2.h
+pbkdf2.cpp :
+  /Users/Nicolas/Documents/Job/coin/demetercoin/src/pbkdf2.h :
