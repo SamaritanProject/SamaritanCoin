@@ -17,7 +17,7 @@ greaterThan(QT_MAJOR_VERSION, 4) {
 # use: BOOST_THREAD_LIB_SUFFIX=_win32-...
 # or when linking against a specific BerkelyDB version: BDB_LIB_SUFFIX=-4.8
 
-BOOST_LIB_SUFFIX=-mgw49-mt-sd-1_55
+BOOST_LIB_SUFFIX=
 BOOST_INCLUDE_PATH=C:/deps/boost_1_55_0
 BOOST_LIB_PATH=C:/deps/boost_1_55_0/stage/lib
 BDB_INCLUDE_PATH=C:/deps/db-4.8.30.NC/build_unix
@@ -25,8 +25,10 @@ BDB_LIB_PATH=C:/deps/db-4.8.30.NC/build_unix
 OPENSSL_INCLUDE_PATH=C:/deps/openssl-1.0.1j/include
 OPENSSL_LIB_PATH=C:/deps/openssl-1.0.1j
 MINIUPNPC_LIB_SUFFIX=-miniupnpc
-MINIUPNPC_INCLUDE_PATH=C:/deps/miniupnpc
-MINIUPNPC_LIB_PATH=C:/deps/miniupnpc
+
+MINIUPNPC_INCLUDE_PATH=/usr/local/Cellar/miniupnpc/2.0.20170509/include
+MINIUPNPC_LIB_PATH=/usr/local/Cellar/miniupnpc/2.0.20170509/lib
+
 QRENCODE_INCLUDE_PATH=C:/deps/qrencode-3.4.4
 QRENCODE_LIB_PATH=C:/deps/qrencode-3.4.4/.libs
 
@@ -380,25 +382,23 @@ isEmpty(BOOST_THREAD_LIB_SUFFIX) {
     else:BOOST_THREAD_LIB_SUFFIX = $$BOOST_LIB_SUFFIX
 }
 
-isEmpty(BDB_LIB_PATH) {
-    macx:BDB_LIB_PATH = /opt/local/lib/db48
-}
+macx:BDB_LIB_PATH = /usr/local/Cellar/berkeley-db@4/4.8.30/lib
+
+
 
 isEmpty(BDB_LIB_SUFFIX) {
     macx:BDB_LIB_SUFFIX = -4.8
 }
 
-isEmpty(BDB_INCLUDE_PATH) {
-    macx:BDB_INCLUDE_PATH = /opt/local/include/db48
-}
+macx:BDB_INCLUDE_PATH = /usr/local/Cellar/berkeley-db@4/4.8.30/include
 
-isEmpty(BOOST_LIB_PATH) {
-    macx:BOOST_LIB_PATH = /opt/local/lib
-}
 
-isEmpty(BOOST_INCLUDE_PATH) {
-    macx:BOOST_INCLUDE_PATH = /opt/local/include
-}
+macx:BOOST_LIB_PATH = /usr/local/Cellar/boost/1.64.0_1/lib
+
+macx:BOOST_INCLUDE_PATH = /usr/local/Cellar/boost/1.64.0_1/include
+
+macx:OPENSSL_INCLUDE_PATH=/usr/local/Cellar/openssl/1.0.2k/include
+macx:OPENSSL_LIB_PATH=/usr/local/Cellar/openssl/1.0.2k/lib
 
 windows:DEFINES += WIN32
 windows:RC_FILE = src/qt/res/bitcoin-qt.rc
